@@ -20,3 +20,30 @@ console.log(fruits.indexOf("pawpaw"));
 
 //.length
 console.log(fruits.length);
+
+//Objects: are a type of variable, quite similar to aarays but they have something called key-value pairs
+
+const person = {
+  name: "Lenardo",
+  shirt: "white",
+};
+
+console.log(person.name);
+console.log(person["shirt"]);
+
+person.phone = "1 - 222 - 333 - 6678";
+console.log(person.phone);
+console.log(person);
+
+const introducer = (name, shirt, color) => {
+  const person = {
+    name: name,
+    shirt: shirt,
+    color: color,
+  };
+  const intro = `Hi!, My name is ${person.name} and the color of my shirt is ${person.color}, the brand of shirt is ${person.shirt}`;
+
+  return intro;
+};
+
+console.log(introducer("Oluwaseun", "Valentino", "Red"));
