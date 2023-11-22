@@ -38,3 +38,33 @@ console.log(FigureTotalSum);
 
 const FigureTotalProduct = Math.floor(figuredecimal * figureTwo);
 console.log(FigureTotalProduct);
+
+//Todos
+
+//Function add
+
+const addNumber = (a, b) => {
+  return a + b;
+};
+
+addNumber(10, 20);
+console.log(addNumber(10, 20));
+
+//Function Sub
+
+const subNumber = (x, y) => {
+  return x - y;
+};
+
+console.log(subNumber(55, 500));
+
+const divNumber = (m, n) => {
+  return m / n;
+};
+console.log(divNumber(88, 4));
+
+const mulNumber = (q, g, m) => {
+  return q * g * m;
+};
+
+console.log(mulNumber(10, 33, 2));
