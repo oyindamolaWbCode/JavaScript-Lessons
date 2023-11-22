@@ -9,3 +9,14 @@ console.log(fruits[3]);
 
 fruits.push("kiwi", "strawberry", "tomatoes");
 console.log(fruits);
+
+//.slice() returns the portion of the array in a new array.
+
+// console.log(fruits.splice(2, 4));
+// console.log(fruits.splice(0, 5));
+
+//.indexOf()
+console.log(fruits.indexOf("pawpaw"));
+
+//.length
+console.log(fruits.length);
