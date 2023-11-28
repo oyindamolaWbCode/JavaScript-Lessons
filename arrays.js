@@ -40,8 +40,17 @@ const introducer = (name, shirt, color) => {
     name: name,
     shirt: shirt,
     color: color,
+    assets: 100000,
+    liabilities: 50000,
+    networth: function () {
+      return this.assets - this.liabilities;
+    },
   };
-  const intro = `Hi!, My name is ${person.name} and the color of my shirt is ${person.color}, the brand of shirt is ${person.shirt}`;
+  const intro = `Hi!, My name is ${person.name} and the color of my shirt is ${
+    person.color
+  }, the brand of shirt is ${
+    person.shirt
+  } and my networth is $${person.networth()} USD`;
 
   return intro;
 };
