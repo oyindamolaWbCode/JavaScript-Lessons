@@ -72,3 +72,23 @@ console.log(
 );
 
 console.log("===================================");
+
+//javapoint.js
+
+//let officialName = prompt("What is the “official” name of JavaScript?");
+
+// if (officialName == "ECMAScript") {
+//   alert("right");
+// } else {
+//   alert("You don’t know? ECMAScript!");
+// }
+
+//Tenary Operator
+
+// officialName == "ECMAScript"
+//   ? alert("right")
+//   : alert("You don’t know? ECMAScript!");
+
+let promptNum = prompt("Suggest a number ...");
+
+promptNum > 0 ? alert("1") : promptNum < 0 ? alert("-1") : alert("0");
